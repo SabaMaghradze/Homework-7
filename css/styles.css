@@ -1,0 +1,36 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+header {
+    max-width: inherit;
+    width: inherit;
+    padding: 45px 320px 46px 320px;
+    background-color: black;
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+
+nav ul li{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+header img {
+    margin-left: 706px;
+}
+
+.shop {
+    margin-left: 68px;
+}
+
+.aboutUs {
+    margin-left: 68px;
+    margin-right: 68px;
+}
