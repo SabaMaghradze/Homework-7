@@ -4,6 +4,8 @@
     margin-inline: auto;
 }
 
+/* header */
+
 header {
     max-width: inherit;
     width: inherit;
@@ -17,7 +19,7 @@ ul {
 }
 
 
-nav ul li{
+nav ul li {
     color: #FFFFFF;
     font-size: 24px;
 }
@@ -34,3 +36,85 @@ header img {
     margin-left: 68px;
     margin-right: 68px;
 }
+
+
+/* section */
+
+.section1 {
+    position: relative;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    left: 396px;
+    top: 242px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h2 {
+    font-size: 82px;
+    color: #FFFFFF;
+    width: 1128px;
+    text-align: center;
+    margin-bottom: 164px;
+}
+
+.text p {
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 583px;
+    line-height: 150%;
+}
+
+.searchBar {
+    width: 463px;
+    height: 71px;
+    display: flex;
+    padding: 10px 11px 10px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 23.25px;
+}
+
+.searchPlant {
+/* ver vasworeb am teqsts marjvniv */
+}
+
+/* section 2 */
+
+.section2 {
+    margin: 245px 320px;
+    width: 1280px;
+    
+}
+
+.section2Title {
+    font-size: 75px;
+    margin-bottom: 81px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 30px 41px 133px 41px;
+    border: 1px solid red;
+    height: 388px;
+}
+
+.photoAndText {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+    margin-bottom: 17px;
+}
+
