@@ -12,6 +12,9 @@ header {
     padding: 45px 320px 46px 320px;
     background-color: black;
     display: flex;
+    /* position: fixed; 
+     top: 0; - amas rom vuwer arasworad ifixeba headeri, gvian chndeba */
+
 }
 
 ul {
@@ -42,7 +45,7 @@ header img {
 }
 
 
-/* section */
+/* section1 */
 
 .section1 {
     position: relative;
@@ -96,7 +99,6 @@ header img {
 .section2 {
     margin: 245px 320px;
     width: 67%;
-
 }
 
 .sectionTitle {
@@ -135,6 +137,7 @@ header img {
 .photos {
     margin-top: 67px;
     width: 1280px;
+    /* width 100% -s rom vuwer didi dashoreba chndeba potoebs shoris */
     height: 645px;
     display: flex;
     flex-wrap: wrap;
