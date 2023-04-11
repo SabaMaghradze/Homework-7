@@ -84,7 +84,7 @@ header img {
 }
 
 .searchPlant {
-/* ver vasworeb am teqsts marjvniv */
+    /* ver vasworeb am teqsts marjvniv */
 }
 
 /* section 2 */
@@ -92,15 +92,15 @@ header img {
 .section2 {
     margin: 245px 320px;
     width: 1280px;
-    
+
 }
 
-.section2Title {
+.sectionTitle {
     font-size: 75px;
-    margin-bottom: 81px;
 }
 
 .cards {
+    margin-top: 81px;
     display: flex;
     justify-content: space-between;
 }
@@ -118,3 +118,37 @@ header img {
     margin-bottom: 17px;
 }
 
+/* section 3 */
+
+.section3 {
+    margin-left: 320px;
+    position: relative;
+}
+
+.photos {
+    margin-top: 67px;
+    width: 1280px;
+    height: 645px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.twoPhotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.photo2 {
+    width: 522px;
+    height: 310px;
+}
+
+.text3 {
+    position: absolute;
+    font-size: 64px;
+    color: #DCB47A;
+    left: 194px;
+    top: 440px;
+}
