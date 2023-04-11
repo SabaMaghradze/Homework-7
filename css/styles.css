@@ -95,12 +95,13 @@ header img {
 
 .section2 {
     margin: 245px 320px;
-    width: 1280px;
+    width: 67%;
 
 }
 
 .sectionTitle {
     font-size: 75px;
+    font-weight: 600;
 }
 
 .cards {
@@ -128,6 +129,7 @@ header img {
     margin-left: 320px;
     margin-bottom: 245px;
     position: relative;
+    width: 70%;
 }
 
 .photos {
